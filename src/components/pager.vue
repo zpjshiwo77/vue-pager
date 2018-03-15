@@ -118,6 +118,9 @@ export default {
   },
   created() {
     this.updataPage()
+  },
+  watch:{
+    'totalPage':'updataPage'
   }
 }
 </script>
