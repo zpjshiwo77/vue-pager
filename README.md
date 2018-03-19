@@ -11,8 +11,8 @@
 * 程序默认运行在8080端口: localhost:8080
 
 #### 使用方法
- #<pager :totalPage="totalPage" v-on:changed="pagerChange"></pager>
-
+ #、、<pager :totalPage="totalPage" v-on:changed="pagerChange"></pager>、、
+ 
 （该组件源码为components文件夹下面的pager.vue文件）
 
 * Props:
